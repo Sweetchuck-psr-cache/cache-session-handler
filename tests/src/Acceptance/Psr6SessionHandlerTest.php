@@ -12,11 +12,10 @@ declare(strict_types = 1);
  * with this source code in the file LICENSE.
  */
 
-namespace Cache\SessionHandler\Tests;
+namespace Cache\SessionHandler\Tests\Acceptance;
 
 use Cache\Adapter\PHPArray\ArrayCachePool;
 use Cache\SessionHandler\Psr6SessionHandler;
-use Psr\Cache\CacheItemInterface;
 
 /**
  * @author Aaron Scherer <aequasi@gmail.com>
@@ -24,6 +23,9 @@ use Psr\Cache\CacheItemInterface;
  * @author Daniel Bannert <d.bannert@anolilab.de>s
  *
  * @property \Cache\SessionHandler\Psr6SessionHandler $handler
+ *
+ * @covers \Cache\SessionHandler\Psr6SessionHandler
+ * @covers \Cache\SessionHandler\AbstractSessionHandler
  */
 class Psr6SessionHandlerTest extends AbstractSessionHandlerTestBase
 {

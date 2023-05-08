@@ -12,7 +12,7 @@ declare(strict_types = 1);
  * with this source code in the file LICENSE.
  */
 
-namespace Cache\SessionHandler\Tests;
+namespace Cache\SessionHandler\Tests\Acceptance;
 
 use PHPUnit\Framework\TestCase;
 
